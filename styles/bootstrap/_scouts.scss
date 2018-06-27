@@ -1,0 +1,23 @@
+.bg- {
+  &purple {
+    background-color: map-get($scoutColours, 'purple');
+    color: map-get($scoutColours, 'white');
+
+    a {
+      @include lib-link(
+              $_link-color                   : map-get($scoutColours, 'white'),
+              $_link-text-decoration         : underline,
+              $_link-color-visited           : map-get($scoutColours, 'white'),
+              $_link-text-decoration-visited : none,
+              $_link-color-hover             : map-get($scoutColours, 'white'),
+              $_link-text-decoration-hover   : none,
+              $_link-color-active            : map-get($scoutColours, 'white'),
+              $_link-text-decoration-active  : none
+      );
+    }
+  }
+
+  &green {
+    background-color: map-get($scoutColours, 'green');
+  }
+}
