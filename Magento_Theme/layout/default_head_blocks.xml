@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!-- Add local resources -->
+        <css src="css/styles.css"/>
+
+        <!-- Add external resources -->
+
+        <!-- Google Fonts -->
+        <link src="https://fonts.googleapis.com/css?family=Nunito+Sans" src_type="url" />
+
+        <!-- Font Awesome -->
+        <css src="https://use.fontawesome.com/releases/v5.1.0/css/all.css" src_type="url" />
+    </head>
+</page>
