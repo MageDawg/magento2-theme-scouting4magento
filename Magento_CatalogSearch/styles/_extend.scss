@@ -1,0 +1,11 @@
+.block-search {
+  input {
+    border: 0;
+    border-bottom: 2px solid map-get($scoutColours, 'purple');
+    color: map-get($scoutColours, 'purple');
+
+    &:after {
+      color: map-get($scoutColours, 'purple');
+    }
+  }
+}
