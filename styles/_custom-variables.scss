@@ -1,0 +1,30 @@
+// Custom variables
+$scoutColours: (
+    'purple': #7413dc,
+    'teal': #00a794,
+    'white': #fff,
+    'black': #000,
+    'red': #e22e12,
+    'green': #23a950,
+    'pink': #ffb4e5,
+    'navy': #003982,
+    'blue': #006ddf,
+    'yellow': #ffe627
+);
+
+// Variable Overrides
+$navigation__background                                       : map-get($scoutColours, 'white');
+$navigation-desktop__background                               : $navigation__background;
+$navigation-desktop-level0-item__color                        : map-get($scoutColours, 'purple');
+$submenu-desktop-item__color                                  : $navigation-desktop-level0-item__color;
+
+//  Header
+$header-icons-color                                           : map-get($scoutColours, 'purple');
+$header-icons-color-hover                                     : darken($header-icons-color, 50%);
+
+//
+//  Minicart
+//  ---------------------------------------------
+
+$minicart-icons-color                                         : $header-icons-color;
+$minicart-icons-color-hover                                   : $header-icons-color-hover;

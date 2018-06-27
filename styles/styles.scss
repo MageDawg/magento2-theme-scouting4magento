@@ -7,6 +7,7 @@
 
 // Theme variables
 @import 'variables';
+@import 'custom-variables';
 
 // Reset default styles with magento-reset
 @import 'blocks/reset';
@@ -70,6 +71,7 @@
 @import '../Magento_Vault/styles/module';
 @import '../Magento_Weee/styles/module';
 @import '../Magento_Wishlist/styles/module';
+
 
 // Widgets
 @import '../Magento_AdvancedCheckout/styles/widgets';
