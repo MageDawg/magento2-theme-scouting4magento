@@ -9,6 +9,9 @@
 @import 'variables';
 @import 'custom-variables';
 
+// Vendor Lib Overrides
+@import 'vendor/magento-ui/variables/typography_override';
+
 // Reset default styles with magento-reset
 @import 'blocks/reset';
 

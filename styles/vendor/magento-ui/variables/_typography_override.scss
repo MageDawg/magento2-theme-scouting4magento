@@ -1,0 +1,20 @@
+//  Font families
+$font-family-name__base         : 'Nunito Sans';
+$font-family__base              : $font-family-name__base, $font-family__sans-serif;
+
+
+//
+//  Links
+//  ---------------------------------------------
+
+$link__color                    : map-get($scoutColours, 'purple');
+$link__text-decoration          : none;
+
+$link__visited__color           : $link__color;
+$link__visited__text-decoration : underline;
+
+$link__hover__color             : darken($link__color, 50%);
+$link__hover__text-decoration   : underline;
+
+$link__active__color            : darken($link__color, 50%);
+$link__active__text-decoration  : none;
