@@ -6,7 +6,7 @@ Sass Based Theme for Magento 2 Following Scouting Brand Guidelines V1.0 May 2018
 
 ```BASH
 composer config repositories.magedawg git git@github.com/MageDawg/magento2-theme-scouting4magento.git
-composer require magedawg/magento2-theme-scouting4magento: "dev-master"
+composer require magedawg/theme-frontend-scouting4magento: "dev-master"
 php bin/magento bin/magento setup:upgrade
 ```
 
